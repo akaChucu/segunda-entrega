@@ -15,6 +15,10 @@ body {
     padding: 0;
 }
 
+.padding-imagen {
+    padding-left: 20px;
+}
+
 .imagen-carousel {
     object-fit: cover;
     height: 500px;
@@ -36,10 +40,6 @@ body {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-}
-
 .cafe-colombiano {
     width: 300px;
     height: 300px;
@@ -50,4 +50,11 @@ a {
     padding-left: 30px;
     background-color: white;
     border-radius: 20px;
+}
+
+.footer {
+    background-color: #e2d5c1;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
