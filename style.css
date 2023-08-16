@@ -34,14 +34,20 @@ body {
     padding-top: 100px;
     padding-bottom: 60px;
     text-align: center;
-
 }
 
-.titulo-uno:hover {
-    text-decoration: underline;
+a {
+    text-decoration: none;
 }
 
 .cafe-colombiano {
     width: 300px;
     height: 300px;
+}
+
+.fondo-contenido {
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 20px;
 }
