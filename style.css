@@ -29,3 +29,19 @@ body {
     color: #5f3711;
     text-decoration: underline;
 }
+
+.titulo-uno {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+
+}
+
+.titulo-uno:hover {
+    text-decoration: underline;
+}
+
+.cafe-colombiano {
+    width: 300px;
+    height: 300px;
+}
