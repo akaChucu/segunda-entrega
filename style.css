@@ -84,3 +84,15 @@ body {
     text-align: center;
 }
 
+.imagen-centrada {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
