@@ -1,42 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="imagenes/logo.ico" />
+  </head>
+  <body>
     <div class="container-fluid container-navbar">
-        <nav class="navbar navbar-bg navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand padding-imagen" href="index.html"><img src="imagenes/logo.png" alt="Bootstrap" width="30" height="30"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-bg navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand padding-imagen" href="index.html"
+            ><img
+              src="imagenes/logo.png"
+              alt="Bootstrap"
+              width="30"
+              height="30"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="products.html"
+                  >Products</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacs-us.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="our-team.html"
+                  >Our Team</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark btn-light" type="submit">
+                Search
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="products.html">Products</a>
-                  </li><li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contacs-us.html">Contact Us</a>
-                  </li>
-                </li><li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="our-team.html">Our Team</a>
-                </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-dark btn-light" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+            </form>
+          </div>
+        </div>
+      </nav>
     </div>
 
     <div class="container">
@@ -44,20 +83,20 @@
         <h1>Meet Us</h1>
       </div>
       <div class="row">
-        <div class="card col" style="width: 18rem;">
-          <img src="imagenes/yo.png" class="card-img-top" alt="Franco Mendez">
+        <div class="card col" style="width: 18rem">
+          <img src="imagenes/yo.png" class="card-img-top" alt="Franco Mendez" />
           <div class="card-body">
             <h5 class="card-title alinear-texto">Franco Mendez</h5>
           </div>
         </div>
-        <div class="card col" style="width: 18rem;">
-          <img src="imagenes/yo.png" class="card-img-top" alt="Franco Mendez">
+        <div class="card col" style="width: 18rem">
+          <img src="imagenes/yo.png" class="card-img-top" alt="Franco Mendez" />
           <div class="card-body">
             <h5 class="card-title alinear-texto">Random</h5>
           </div>
         </div>
-        <div class="card col" style="width: 18rem;">
-          <img src="imagenes/yo.png" class="card-img-top" alt="Franco Mendez">
+        <div class="card col" style="width: 18rem">
+          <img src="imagenes/yo.png" class="card-img-top" alt="Franco Mendez" />
           <div class="card-body">
             <h5 class="card-title alinear-texto">Random</h5>
           </div>
@@ -66,55 +105,61 @@
     </div>
 
     <div class="containter-fluid footer">
+      <div class="row">
+        <div class="col-lg-3 col-xs-12">
+          <p class="h3">
+            Coffee
+            <img
+              src="imagenes/logo.png"
+              alt="Bootstrap"
+              width="45"
+              height="45"
+            />
+          </p>
+        </div>
 
-        <div class="row">
-          <div class="col-lg-3 col-xs-12">
-            <p class="h3">Coffee <img src="imagenes/logo.png" alt="Bootstrap" width="45" height="45"></p>
+        <div class="col-lg-3 col-xs-12">
+          <p class="h5">Products</p>
+
+          <div class="mb-2">
+            <a class="text-decoration-none" href="#">coffee makers</a>
           </div>
-  
-          <div class="col-lg-3 col-xs-12">
-            <p class="h5">Products</p>
-            
-            <div class="mb-2">
-              <a class="text-decoration-none" href="#">coffee makers</a>
-            </div>
-  
-            <div class="mb-2">
+
+          <div class="mb-2">
             <a class="text-decoration-none" href="#">Coffee</a>
-            </div>
-  
-            <div class="mb-2">
-              <a class="text-decoration-none" href="#">coffee bags</a>
-            </div>
           </div>
-  
-          <div class="col-lg-3 col-xs-12">
-            <p class="h5">Terms and Conditions</p>
-            
-            <div class="mb-2">
-              <a class="text-decoration-none" href="#">Privacy Policy</a>
-            </div>
-  
+
+          <div class="mb-2">
+            <a class="text-decoration-none" href="#">coffee bags</a>
           </div>
-  
-          <div class="col-lg-3 col-xs-12">
-            <p class="h5">Contact</p>
-            
-            <div class="mb-2">
-              <a class="text-decoration-none" href="#">Instragram</a>
-            </div>
-  
-            <div class="mb-2">
-              <a class="text-decoration-none" href="#">Twitter</a>
-            </div>
-  
-            <div class="mb-2">
-              <a class="text-decoration-none" href="#">Linkedin</a>
-            </div>
+        </div>
+
+        <div class="col-lg-3 col-xs-12">
+          <p class="h5">Terms and Conditions</p>
+
+          <div class="mb-2">
+            <a class="text-decoration-none" href="#">Privacy Policy</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-xs-12">
+          <p class="h5">Contact</p>
+
+          <div class="mb-2">
+            <a class="text-decoration-none" href="#">Instragram</a>
+          </div>
+
+          <div class="mb-2">
+            <a class="text-decoration-none" href="#">Twitter</a>
+          </div>
+
+          <div class="mb-2">
+            <a class="text-decoration-none" href="#">Linkedin</a>
           </div>
         </div>
       </div>
+    </div>
 
     <script src="js/bootstrap.js"></script>
-</body>
+  </body>
 </html>

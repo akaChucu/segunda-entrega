@@ -1,98 +1,97 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #f6f6e2;
+  background-color: #f6f6e2;
 }
 
 .navbar-bg {
-    background-color: #d4c098;
+  background-color: #d4c098;
 }
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
 .padding-imagen {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .imagen-carousel {
-    object-fit: cover;
-    height: 500px;
-    padding-bottom: 20px;
+  object-fit: cover;
+  height: 500px;
+  padding-bottom: 20px;
 }
 
 .imagenes-carta {
-    height: 400px;
+  height: 400px;
 }
 
 .texto-cartas:hover {
-    color: #5f3711;
-    text-decoration: underline;
+  color: #5f3711;
+  text-decoration: underline;
 }
 
 .titulo-uno {
-    padding-top: 100px;
-    padding-bottom: 60px;
-    text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 .cafe-colombiano {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .fondo-contenido {
-    padding-top: 30px;
-    padding-left: 30px;
-    background-color: white;
-    border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .footer {
-    background-color: #e2d5c1;
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
+  background-color: #e2d5c1;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .formulario {
-    padding: 226px;
+  padding: 226px;
 }
 
 #titulo-productos {
-
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 .padding-imagenes {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .meet-us {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 .alinear-texto {
-    text-align: center;
+  text-align: center;
 }
 
 .imagen-centrada {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 a:hover {
-    color: grey;
+  color: grey;
 }
